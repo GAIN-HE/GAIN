@@ -38,7 +38,7 @@
       <muleVersion>4.6.0</muleVersion>
       <username>shivam9897680</username>
       <password>SHIvam665@@</password>
-      <applicationName>$GAIN-TEST-app</applicationName>
+      <applicationName>GAIN-TEST-app</applicationName>
       <replicas>1</replicas>
       <vCores>1</vCores>
 
@@ -89,12 +89,12 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</pluginRepository>
-		<pluginRepositories>
+	
   <pluginRepository>
     <id>mule-public</id>
     <url>https://repository.mulesoft.org/nexus/content/repositories/releases</url>
   </pluginRepository>
 </pluginRepositories>
-	</pluginRepositories>
+	
 
 </project>
