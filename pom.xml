@@ -27,9 +27,25 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>${mule.maven.plugin.version}</version>
+				<version>3.7.1</version>
 				<extensions>true</extensions>
+				 <configuration>
+    <cloudhub2Deployment>
+      <uri>https://anypoint.mulesoft.com</uri>
+      <provider>MC</provider>
+      <environment>SANDBOX</environment>
+      <target>Cloudhub-US-East-1</target>
+      <muleVersion>4.6.0</muleVersion>
+      <username>shivam9897680</username>
+      <password>SHIvam665@@</password>
+      <applicationName>$GAIN-TEST-app</applicationName>
+      <replicas>1</replicas>
+      <vCores>1</vCores>
+
+    </cloudhub2Deployment>
+  </configuration>
 			</plugin>
+			
 		</plugins>
 	</build>
 
@@ -73,6 +89,12 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</pluginRepository>
+		<pluginRepositories>
+  <pluginRepository>
+    <id>mule-public</id>
+    <url>https://repository.mulesoft.org/nexus/content/repositories/releases</url>
+  </pluginRepository>
+</pluginRepositories>
 	</pluginRepositories>
 
 </project>
