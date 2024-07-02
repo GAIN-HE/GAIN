@@ -1,7 +1,11 @@
 <settings>
 
   <servers>
-
+ <server>
+      <id>anypoint-exchange-v3</id>
+      <username>~~~Client~~~</username>
+      <password>1c1e2ddbf9e348ee94017e67865c7712~?~a33CD32440BA4522a6b425529D57aC48</password>
+    </server>
     <server>
       <id>my.anypoint.credentials</id>
       <username>shivam9897680</username>
