@@ -35,7 +35,7 @@
       <uri>https://anypoint.mulesoft.com</uri>
       <muleVersion>${app.runtime}</muleVersion>
       <username>shivam989768</username>
-      <password>SHIvam665</password>
+      <password>SHIvam665@@</password>
       <applicationName>GAIN-TEST-app</applicationName>
       <environment>Sandbox</environment>
       <region>us-east-2</region>
