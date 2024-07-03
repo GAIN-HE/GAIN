@@ -34,7 +34,7 @@
       <uri>https://anypoint.mulesoft.com</uri>
       <provider>MC</provider>
       <environment>Sandbox</environment>
-      <target>Cloudhub-US-East-1</target>
+      <target>us-east-2</target>
       <muleVersion>4.6.0</muleVersion>
       <username>shivam989768</username>
       <password>SHIvam665@@</password>
