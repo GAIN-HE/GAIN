@@ -36,7 +36,7 @@
       <environment>SANDBOX</environment>
       <target>Cloudhub-US-East-1</target>
       <muleVersion>4.6.0</muleVersion>
-      <username>shivam9897680</username>
+      <username>shivam989768</username>
       <password>SHIvam665@@</password>
       <applicationName>GAIN-TEST-app</applicationName>
       <replicas>1</replicas>
