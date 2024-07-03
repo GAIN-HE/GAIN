@@ -32,8 +32,15 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-     - name: Deploy
-       run: mvn clean deploy -DmuleDeploy --file pom.xml -s .maven/setting.xml
+    - uses: actions/checkout@v4
+    - name: Set up JDK 17
+      uses: actions/setup-java@v3
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: maven
+    - name: Deploy
+      run: mvn clean deploy -DmuleDeploy --file pom.xml -s .maven/setting.xml
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
 
